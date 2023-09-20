@@ -42,3 +42,4 @@ Welcome to Cosmic Ascendancy: The Path to Prosperity, an exciting sci-fi increme
 - **IDE:** WebStorm
 - **Version Control:** GitHub
 - **Hosting:** GitHub Pages
+- **Release Date:** TBD

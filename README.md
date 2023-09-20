@@ -1,6 +1,6 @@
-# Cosmic Ascendancy: The Path to Prosperity
+# Cosmic Ascendancy: The Path to Prosperity - Unity Game Project
 
-Welcome to Cosmic Ascendancy: The Path to Prosperity, an exciting sci-fi incremental logistics simulation game!
+Welcome to Cosmic Ascendancy: The Path to Prosperity, an exciting sci-fi incremental logistics simulation game developed using Unity!
 
 ## Gameplay Objectives
 
@@ -37,6 +37,9 @@ Welcome to Cosmic Ascendancy: The Path to Prosperity, an exciting sci-fi increme
 ## Development Details
 
 - **Game Genre:** Sci-fi incremental logistics simulation
-- **Development Language:** JavaScript
-- **IDE:** WebStorm
+- **Development Environment:** Unity
+- **Programming Language:** C#
+- **IDE:** Unity Editor
 - **Version Control:** GitHub
+
+In this Unity-based game project, you will embark on a cosmic journey to prosperity, utilizing the Unity game engine and the power of C# scripting to bring your sci-fi incremental logistics simulation to life. Get ready to explore the universe, upgrade your tools, and conquer the challenges that await you in Cosmic Ascendancy!

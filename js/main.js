@@ -1,4 +1,3 @@
-
 // Define a central point variable
 let points = 1;
 

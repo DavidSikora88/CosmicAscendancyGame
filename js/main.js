@@ -3,10 +3,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initialize the game
     function initGame() {
-        // You can start adding your game logic here
-        console.log('Game initialized.');
+        // Set a message in the game container
+        gameContainer.innerHTML = "Welcome to Cosmic Ascendancy: The Path to Prosperity!";
     }
 
     // Call the initGame function to start the game
     initGame();
 });
+

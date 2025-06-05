@@ -3,6 +3,11 @@ let points = 1;
 
 document.addEventListener("DOMContentLoaded", function () {
   const gameContainer = document.getElementById("game-container");
+  const scoreDisplay = document.getElementById("score-display");
+
+  function updateScoreDisplay() {
+    scoreDisplay.textContent = `Score: ${points}`;
+  }
 
   // Initialize the game
   function initGame() {
@@ -12,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Access the points here
     console.log("Points:", points);
+    updateScoreDisplay();
   }
 
   // Call the initGame function to start the game

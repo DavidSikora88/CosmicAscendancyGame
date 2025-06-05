@@ -44,6 +44,7 @@ Welcome to Cosmic Ascendancy: The Path to Prosperity, an exciting sci-fi increme
 - **Hosting:** GitHub Pages
 - **Release Date:** TBD
 
+
 ## Getting Started
 
 1. **Clone or download the repository**
@@ -63,3 +64,10 @@ We welcome ideas and pull requests that expand the gameplay. Potential areas for
 - Improved balancing and challenge modes
 
 If you'd like to contribute, please fork the repository, create a branch for your changes, and open a pull request. Feel free to file an issue to discuss new features or bug fixes before submitting code.
+=======
+## Saving Progress
+
+The game automatically stores your points using the browser's `localStorage`.
+Reloading the page restores the last saved value with `localStorage.getItem('points')`.
+Each time points increase, the updated total is saved for future sessions.
+

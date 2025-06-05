@@ -1,13 +1,22 @@
-// Define a central point variable
-let points = 1;
+// Restore saved points or start at 1
+const storedPoints = localStorage.getItem("points");
+let points = storedPoints !== null ? parseInt(storedPoints, 10) : 1;
+
+function incrementPoints(amount = 1) {
+  points += amount;
+  localStorage.setItem("points", points);
+}
 
 document.addEventListener("DOMContentLoaded", function () {
   const gameContainer = document.getElementById("game-container");
   const scoreDisplay = document.getElementById("score-display");
-
   function updateScoreDisplay() {
     scoreDisplay.textContent = `Score: ${points}`;
   }
+
+  const scoreEl = document.getElementById("score");
+  const gatherBtn = document.getElementById("gather-btn");
+ main
 
   // Initialize the game
   function initGame() {
@@ -15,10 +24,17 @@ document.addEventListener("DOMContentLoaded", function () {
     gameContainer.innerHTML =
       "Welcome to Cosmic Ascendancy: The Path to Prosperity!";
 
-    // Access the points here
+    // Display the starting points
+    scoreEl.textContent = points;
     console.log("Points:", points);
     updateScoreDisplay();
   }
+
+  // Increase points and update the score when gather button is clicked
+  gatherBtn.addEventListener("click", function () {
+    points++;
+    scoreEl.textContent = points;
+  });
 
   // Call the initGame function to start the game
   initGame();

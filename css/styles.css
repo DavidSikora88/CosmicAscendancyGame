@@ -14,3 +14,24 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* Display for the player's current score */
+#score-display {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+/* Style for the gather resources button */
+#gather-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#gather-btn:hover {
+  background-color: #45a049;
+}

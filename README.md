@@ -43,3 +43,9 @@ Welcome to Cosmic Ascendancy: The Path to Prosperity, an exciting sci-fi increme
 - **Version Control:** GitHub
 - **Hosting:** GitHub Pages
 - **Release Date:** TBD
+
+## Saving Progress
+
+The game automatically stores your points using the browser's `localStorage`.
+Reloading the page restores the last saved value with `localStorage.getItem('points')`.
+Each time points increase, the updated total is saved for future sessions.

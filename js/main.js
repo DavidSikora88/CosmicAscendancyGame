@@ -1,5 +1,11 @@
-// Define a central point variable
-let points = 1;
+// Restore saved points or start at 1
+const storedPoints = localStorage.getItem("points");
+let points = storedPoints !== null ? parseInt(storedPoints, 10) : 1;
+
+function incrementPoints(amount = 1) {
+  points += amount;
+  localStorage.setItem("points", points);
+}
 
 document.addEventListener("DOMContentLoaded", function () {
   const gameContainer = document.getElementById("game-container");

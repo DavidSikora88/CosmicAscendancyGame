@@ -1,20 +1,9 @@
-/* Resetting default margin and padding for the body */
-body {
-  margin: 0;
-  padding: 0;
-}
 
-/* Applying some basic styling to the game container */
-#game-container {
-  width: 100%;
-  height: 100vh;
-  background-color: #f0f0f0; /* Change this to your desired background color */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
+/* Styling for the score display */
+#score-display {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+=======
 /* Display for the player's current score */
 #score-display {
   margin-top: 20px;
@@ -34,4 +23,4 @@ body {
 
 #gather-btn:hover {
   background-color: #45a049;
-}
+

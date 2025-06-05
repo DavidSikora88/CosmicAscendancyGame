@@ -9,8 +9,14 @@ function incrementPoints(amount = 1) {
 
 document.addEventListener("DOMContentLoaded", function () {
   const gameContainer = document.getElementById("game-container");
+  const scoreDisplay = document.getElementById("score-display");
+  function updateScoreDisplay() {
+    scoreDisplay.textContent = `Score: ${points}`;
+  }
+
   const scoreEl = document.getElementById("score");
   const gatherBtn = document.getElementById("gather-btn");
+ main
 
   // Initialize the game
   function initGame() {
@@ -21,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Display the starting points
     scoreEl.textContent = points;
     console.log("Points:", points);
+    updateScoreDisplay();
   }
 
   // Increase points and update the score when gather button is clicked
